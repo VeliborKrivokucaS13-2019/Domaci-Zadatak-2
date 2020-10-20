@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid green;
+}
+
+#drugi {
+  background-color: rgb(157, 255, 157);
+  color: rgb(255, 103, 103);
+}
+
+.forma {
+  margin: 0px auto;
+  width: 500px;
+  border-color: green;
+  border-style: solid;
+  padding: 20px;
+}
+
+div {
+  margin: 20px 0px;
+}
+
+#lalign {
+  text-align: left;
+}
+
+#ralign {
+  text-align: right;
+}
+
+#calign {
+  text-align: center;
+}
+
+.col1 {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.col2 {
+  text-align: right;
+  background-color: rgb(255, 255, 0);
+}
+
+.col3 {
+  text-align: left;
+  background-color: rgb(157, 255, 157);
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 150px;
+}
+
+.dugme {
+  padding-bottom: 20px 0px;
+  text-align: center;
+  width: 460px;
+}
+
+.potvrda {
+  padding: 0px 25px;
+  width: 150px;
+}
